@@ -1,0 +1,10 @@
+python 
+src/cli.py 
+--train
+--model_name=unet_default
+--input_img_paths=preprocessed_data/train
+--target_img_paths=preprocessed_data/train
+--loss_fn=binary_crossentropy
+--optimizer=adam
+--max_epochs=10
+--batch_size=32
