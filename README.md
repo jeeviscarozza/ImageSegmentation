@@ -3,7 +3,7 @@ For images of cracks in infrastructure
 
 This repository contains my implementation of a U-Net model for the purpose of semantic image segmentation. The training script allows for configurations using command-line arguments. Additionally, there are functions to visualize the training results and predictions.
 
-Dataset
+Dataset:
 The dataset used to train the model is available at Dataverse Harvard https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EGIEBY. It consists of 10 sub-datasets, each preprocessed and resized to 400x400 pixels. For my project, I have further resized all images to 128x128.
 
 The first script that should be run is the data.py, to split the data into appropriate folders.
